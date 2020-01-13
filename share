@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-13T15:46:18.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="mqys1U_dT6h3-elBNRM0" version="12.5.1" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2020-01-13T15:50:54.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="5j618ihE1vy1fFicdjlA" version="12.5.1" type="github" pages="6">
   <diagram id="N1hKJRpimv-XsNtilBoj" name="第 1 页">
     <mxGraphModel dx="1426" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -980,7 +980,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="NB_BSoPxO_ir9BWkZvW_" name="第 6 页">
-    <mxGraphModel dx="679" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="h15zx8d8FoIAOhQO7I-Y-0"/>
         <mxCell id="h15zx8d8FoIAOhQO7I-Y-1" parent="h15zx8d8FoIAOhQO7I-Y-0"/>
@@ -1164,6 +1164,21 @@
         </mxCell>
         <mxCell id="WbbQuG1svMVQY2DGh5Mj-56" value="ListWatch&lt;br&gt;(node=3)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="h15zx8d8FoIAOhQO7I-Y-1">
           <mxGeometry x="480" y="440" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="WbbQuG1svMVQY2DGh5Mj-61" value="" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="h15zx8d8FoIAOhQO7I-Y-1">
+          <mxGeometry x="-130" y="200" width="170" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="WbbQuG1svMVQY2DGh5Mj-57" value="&lt;font color=&quot;#000000&quot;&gt;Deployment&lt;br&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="h15zx8d8FoIAOhQO7I-Y-1">
+          <mxGeometry x="-115" y="208" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="WbbQuG1svMVQY2DGh5Mj-62" value="&lt;font color=&quot;#000000&quot;&gt;Replicaset&lt;br&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="h15zx8d8FoIAOhQO7I-Y-1">
+          <mxGeometry x="-115" y="256.5" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="WbbQuG1svMVQY2DGh5Mj-63" value="&lt;font color=&quot;#000000&quot;&gt;CRD&lt;br&gt;Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="h15zx8d8FoIAOhQO7I-Y-1">
+          <mxGeometry x="-115" y="304.5" width="90" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="WbbQuG1svMVQY2DGh5Mj-64" value="Controller Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="h15zx8d8FoIAOhQO7I-Y-1">
+          <mxGeometry x="-127.5" y="348" width="115" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
