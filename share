@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-13T15:10:45.003Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="VZvlsnM-EA6IEEHUeIKT" version="12.5.1" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2020-01-13T15:14:09.920Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="vx2kBTtvZVPHGxP0FbBl" version="12.5.1" type="github" pages="5">
   <diagram id="N1hKJRpimv-XsNtilBoj" name="第 1 页">
     <mxGraphModel dx="1426" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -667,14 +667,8 @@
         <mxCell id="Eq4KoieBGognj9EzwjPS-33" value="ApiServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
           <mxGeometry x="470" y="850" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="Eq4KoieBGognj9EzwjPS-41" value="&lt;font color=&quot;#ff0000&quot;&gt;WatchEvent&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
-          <mxGeometry x="240" y="800" width="70" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="Eq4KoieBGognj9EzwjPS-43" value="&lt;font color=&quot;#ff0000&quot;&gt;WatchEvent&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
-          <mxGeometry x="325" y="800" width="70" height="20" as="geometry"/>
-        </mxCell>
-        <mxCell id="Eq4KoieBGognj9EzwjPS-44" value="&lt;font color=&quot;#ff0000&quot;&gt;WatchEvent&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
-          <mxGeometry x="410" y="800" width="70" height="20" as="geometry"/>
+        <mxCell id="Eq4KoieBGognj9EzwjPS-41" value="&lt;font color=&quot;#ff0000&quot;&gt;WatchEvent&lt;br&gt;(rv=2,type=Update)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
+          <mxGeometry x="210" y="800" width="70" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="Eq4KoieBGognj9EzwjPS-45" value="List&lt;br&gt;Subscribe" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
           <mxGeometry x="335" y="200" width="50" height="20" as="geometry"/>
@@ -745,6 +739,21 @@
         </mxCell>
         <mxCell id="Eq4KoieBGognj9EzwjPS-64" value="Watch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
           <mxGeometry x="420" y="490" width="50" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6SxNQF5ioIdEstDMpQS-0" value="ResourceVersion1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
+          <mxGeometry x="340" y="50" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6SxNQF5ioIdEstDMpQS-1" value="&lt;font color=&quot;#ff0000&quot;&gt;ResourceVersion2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
+          <mxGeometry x="340" y="339" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6SxNQF5ioIdEstDMpQS-2" value="&lt;font color=&quot;#ff0000&quot;&gt;WatchEvent&lt;br&gt;(rv=2,type=Update)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
+          <mxGeometry x="325" y="800" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6SxNQF5ioIdEstDMpQS-3" value="&lt;font color=&quot;#ff0000&quot;&gt;WatchEvent&lt;br&gt;(rv=2,type=Update)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
+          <mxGeometry x="440" y="800" width="70" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6SxNQF5ioIdEstDMpQS-4" value="&lt;font color=&quot;#ff0000&quot;&gt;ResourceVersion2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="U3PiS_yQu5SHpBJVIIB1-1">
+          <mxGeometry x="340" y="649" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
