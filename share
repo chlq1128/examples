@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-02-05T09:14:47.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="UxJxQzdWUbZmB8n1vNl7" version="12.6.5" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2020-02-05T10:04:53.947Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="AxVdqXBfuWsNHo5idfy0" version="12.6.5" type="github" pages="10">
   <diagram id="N1hKJRpimv-XsNtilBoj" name="第 1 页">
     <mxGraphModel dx="1186" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1951,18 +1951,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3szVeoeDfUWeXj1qgieh" name="第 10 页">
-    <mxGraphModel dx="1395" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2804" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fiFU3esslHZHllTiYI_y-0"/>
         <mxCell id="fiFU3esslHZHllTiYI_y-1" parent="fiFU3esslHZHllTiYI_y-0"/>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-0" value="Coordinator&lt;br&gt;ApiServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
-          <mxGeometry x="250" y="120" width="120" height="60" as="geometry"/>
+          <mxGeometry x="270" y="120" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-2" value="etcd" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
-          <mxGeometry x="280" y="10" width="60" height="80" as="geometry"/>
+          <mxGeometry x="300" y="10" width="60" height="80" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-3" value="Coordinator&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
-          <mxGeometry x="410" y="30" width="120" height="60" as="geometry"/>
+          <mxGeometry x="430" y="30" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-4" value="Coordinator&lt;br&gt;Kubelet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
           <mxGeometry x="460" y="280" width="120" height="60" as="geometry"/>
@@ -1974,15 +1974,15 @@
           <mxGeometry x="680" y="280" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-7" value="Institution&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
-          <mxGeometry x="860" y="190" width="120" height="60" as="geometry"/>
+          <mxGeometry x="840" y="190" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-10" value="Institution&lt;br&gt;Scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
-          <mxGeometry x="860" y="280" width="120" height="60" as="geometry"/>
+          <mxGeometry x="840" y="280" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-11" value="Institution&lt;br&gt;Kubelet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
           <mxGeometry x="700" y="420" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-13" value="Institution&lt;br&gt;Kube proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-13" value="Institution&lt;br&gt;Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
           <mxGeometry x="840" y="420" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-14" value="&lt;span style=&quot;white-space: normal&quot;&gt;Institution&lt;br&gt;&lt;/span&gt;Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
@@ -1990,6 +1990,36 @@
         </mxCell>
         <mxCell id="IGgNMne5KtZ_1Q_ueDvx-15" value="&lt;span style=&quot;white-space: normal&quot;&gt;Institution&lt;br&gt;&lt;/span&gt;Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
           <mxGeometry x="770" y="599.41" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-16" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="140" y="120" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-17" value="Coordinator&lt;br&gt;Kubelet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-18" value="K8S&lt;br&gt;ApiServer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-150" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-19" value="K8S&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-340" y="270" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-20" value="Institution&lt;br&gt;Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="40" y="410" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-21" value="K8S&lt;br&gt;Kubelet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-230" y="410" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-22" value="K8S&lt;br&gt;Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-230" y="509.4100000000001" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-23" value="&lt;span style=&quot;white-space: normal&quot;&gt;K8S&lt;br&gt;&lt;/span&gt;Pod" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-230" y="599.41" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-24" value="MPC Job&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-540" y="170" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="IGgNMne5KtZ_1Q_ueDvx-25" value="MPC Model&lt;br&gt;Controller" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="fiFU3esslHZHllTiYI_y-1">
+          <mxGeometry x="-540" y="260" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
